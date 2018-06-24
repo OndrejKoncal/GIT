@@ -1,2 +1,3 @@
 init state
 zmìna
+zmìna 2
