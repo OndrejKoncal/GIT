@@ -6,6 +6,9 @@
 - commity si muzu delat u sebe, po case vsechno pushnout
 - dva mergují -> první bude vpohodì, druhý má ale problém (mìnili stejné soubory) - rùzné politiky
 
+- vytvoøí se .gitignore souboru a do nìj seznam souborù a typù, co se ignorují (nepøidávají se)
+	POZOR! - ignorovati i .gitignore
+
 git init 					#uvede složku do "stavu git"
 git status					#jak jsem natom
 git add .					#pøidá vše ve složce pro pøípravu commitu
@@ -17,3 +20,4 @@ git checkout B				#pøepnu na branch B
 git pull					#sosnu si data
 git push					#dám commitnuté zmìny na "server"
 git stash					#"schovám" si na virtuální branch tu moji, abych mohl tøeba dìlat zmìny z nového pullu
+git stash popisek			#vytáhnu z virtuální branch
