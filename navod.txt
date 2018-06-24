@@ -21,3 +21,5 @@ git pull					#sosnu si data
 git push					#dám commitnuté zmìny na "server"
 git stash					#"schovám" si na virtuální branch tu moji, abych mohl tøeba dìlat zmìny z nového pullu
 git stash popisek			#vytáhnu z virtuální branch
+git remote add origin https://github.com/OndrejKoncal/GIT.git		#pøidá se, kam to pushovat
+git push -u origin master	#pushnu to tam
