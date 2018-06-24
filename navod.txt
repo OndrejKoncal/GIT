@@ -1,0 +1,19 @@
+- pro lokální kopie vzdáleného repozitáøe
+- master branch do které se moc nehrabe
+- vytvoøí se rùzné branche, z jedné se vystartuje
+
+- když zaèínám, tak si stáhnu lokální kopii a vytvoøím si na ní nový branch
+- commity si muzu delat u sebe, po case vsechno pushnout
+- dva mergují -> první bude vpohodì, druhý má ale problém (mìnili stejné soubory) - rùzné politiky
+
+git init 					#uvede složku do "stavu git"
+git status					#jak jsem natom
+git add .					#pøidá vše ve složce pro pøípravu commitu
+git add name.txt			#pøidá name.txt pro pøípravu commitu
+git commit					#commitnu a vyrobím popisky
+git commit -m "popisek"		#commitnu a vezme to popisek
+git branch B				#vytvoøí branch s názvem B
+git checkout B				#pøepnu na branch B
+git pull					#sosnu si data
+git push					#dám commitnuté zmìny na "server"
+git stash					#"schovám" si na virtuální branch tu moji, abych mohl tøeba dìlat zmìny z nového pullu
