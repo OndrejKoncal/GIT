@@ -1,25 +1,26 @@
-- pro lokální kopie vzdáleného repozitáøe
-- master branch do které se moc nehrabe
-- vytvoøí se rùzné branche, z jedné se vystartuje
+- pro lokÃ¡lnÃ­ kopie vzdÃ¡lenÃ©ho repozitÃ¡Å™e
+- master branch do kterÃ© se moc nehrabe
+- vytvoÅ™Ã­ se rÅ¯znÃ© branche, z jednÃ© se vystartuje
 
-- kdy zaèínám, tak si stáhnu lokální kopii a vytvoøím si na ní novı branch
+- kdyÅ¾ zaÄÃ­nÃ¡m, tak si stÃ¡hnu lokÃ¡lnÃ­ kopii a vytvoÅ™Ã­m si na nÃ­ novÃ½ branch
 - commity si muzu delat u sebe, po case vsechno pushnout
-- dva mergují -> první bude vpohodì, druhı má ale problém (mìnili stejné soubory) - rùzné politiky
+- dva mergujÃ­ -> prvnÃ­ bude vpohodÄ›, druhÃ½ mÃ¡ ale problÃ©m (mÄ›nili stejnÃ© soubory) - rÅ¯znÃ© politiky
 
-- vytvoøí se .gitignore souboru a do nìj seznam souborù a typù, co se ignorují (nepøidávají se)
+- vytvoÅ™Ã­ se .gitignore souboru a do nÄ›j seznam souborÅ¯ a typÅ¯, co se ignorujÃ­ (nepÅ™idÃ¡vajÃ­ se)
 	POZOR! - ignorovati i .gitignore
 
-git init 					#uvede sloku do "stavu git"
+git init 					#uvede sloÅ¾ku do "stavu git"
 git status					#jak jsem natom
-git add .					#pøidá vše ve sloce pro pøípravu commitu
-git add name.txt			#pøidá name.txt pro pøípravu commitu
-git commit					#commitnu a vyrobím popisky
+git add .					#pÅ™idÃ¡ vÅ¡e ve sloÅ¾ce pro pÅ™Ã­pravu commitu
+git add name.txt			#pÅ™idÃ¡ name.txt pro pÅ™Ã­pravu commitu
+git commit					#commitnu a vyrobÃ­m popisky
 git commit -m "popisek"		#commitnu a vezme to popisek
-git branch B				#vytvoøí branch s názvem B
-git checkout B				#pøepnu na branch B
+git branch B				#vytvoÅ™Ã­ branch s nÃ¡zvem B
+git checkout B				#pÅ™epnu na branch B
 git pull					#sosnu si data
-git push					#dám commitnuté zmìny na "server"
-git stash					#"schovám" si na virtuální branch tu moji, abych mohl tøeba dìlat zmìny z nového pullu
-git stash popisek			#vytáhnu z virtuální branch
-git remote add origin https://github.com/OndrejKoncal/GIT.git		#pøidá se, kam to pushovat
+git push					#dÃ¡m commitnutÃ© zmÄ›ny na "server"
+git stash					#"schovÃ¡m" si na virtuÃ¡lnÃ­ branch tu moji, abych mohl tÅ™eba dÄ›lat zmÄ›ny z novÃ©ho pullu
+git stash popisek			#vytÃ¡hnu z virtuÃ¡lnÃ­ branch
+git remote add origin https://github.com/OndrejKoncal/GIT.git		#pÅ™idÃ¡ se, kam to pushovat
+git clone https://github.com/OndrejKoncal/Retina	#stÃ¡hnu si novÃ½
 git push -u origin master	#pushnu to tam
